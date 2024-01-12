@@ -1,0 +1,198 @@
+/*--------------------------------------------------------------------------------------------------------------------------------
+BASE STYLES
+-----------------------------------------------------------------------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Barlow Semi Condensed', sans-serif;;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+}
+
+
+img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid hsl(0, 0%, 81%) ;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+dl {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+main > div {
+    padding-left: 2.3em; 
+    padding-right: 4em;
+    border-radius: 0.7em; 
+}
+
+
+
+
+p.second {
+    font-size: 1.04rem;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------
+END OF BASE STYLES
+----------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1.6em;
+    margin: 3em auto;     
+}
+
+div.first {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url('images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: left 100% bottom 100%;
+}
+
+.daniel dl, .jonathan dl{
+    color: hsl(0, 0%, 81%);
+}
+
+.daniel dd, .jonathan dd{
+    opacity: 0.5;
+}
+p.first {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.daniel.first, .jonathan.first {
+    color: hsl(0, 0%, 100%);
+}
+
+.profile {
+    margin-top: 2em;
+}
+.profile ~ .first {
+    margin: 1em 0 1.2em;
+}
+
+.daniel.second, .jonathan.second {
+    color: hsl(0, 0%, 100%);
+    opacity: 0.7;
+    line-height: 1.5;
+    margin-bottom: 1.4em;
+}
+
+.profile ~ .second {
+    opacity: 0.7;
+    line-height: 1.5;
+    margin-bottom: 2.2em;
+}
+
+div.second {
+    background-color: hsl(217, 19%, 35%);
+}
+
+div.third, div.fifth {
+    background-color: hsl(0, 0%, 100%);
+}
+.jeanette dl, .kira dl {
+    color: hsl(217, 19%, 35%);
+}
+.jeanette dd, .kira dd {
+    opacity: 0.5;
+}
+
+.jeanette.first, .kira.first {
+    color: hsl(217, 19%, 35%);
+}
+
+.jeanette.second, .kira.second {
+    color: hsl(217, 19%, 35%);
+    opacity: 0.7;
+    line-height: 1.5;
+    margin-bottom: 1.4em;
+}
+
+div.fourth {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.patrick dl {
+    color: hsl(0, 0%, 100%);
+}
+
+.patrick dd {
+    opacity: 0.5;
+}
+
+.patrick.first {
+    color: hsl(0, 0%, 100%);
+}
+
+.patrick.second {
+    color: hsl(0, 0%, 100%);
+    opacity: 0.7;
+    line-height: 1.5;
+    margin-bottom: 1.4em;
+}
+
+
+/*--------------------------------------------------------
+Media Query Styles
+----------------------------------------------------------*/
+
+@media(min-width: 955px) {
+    main {
+        grid-template-areas: 
+            "first first second fifth"
+            "third fourth fourth fifth";
+        gap: 1.6em;
+        grid-template-columns: repeat(4,277px);        /*giving the grid-template-rows and grid template columns, specific width and height in specific units not `fr` so as to match the design given */ 
+        grid-template-rows: 310px 350px;
+
+    }
+
+    main > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    div.first {
+        grid-area: first;
+    }
+
+    div.second {
+        grid-area: second;
+    }
+
+    div.third {
+        grid-area: third;
+    }
+
+    div.fourth {
+        grid-area: fourth;
+    }
+    div.fifth {
+        grid-area: fifth;
+    }
+ }
