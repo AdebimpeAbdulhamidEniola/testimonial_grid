@@ -57,5 +57,5 @@ main {
 
 ## Author
 Adebimpe Abdulhamid Eniola
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@AdebimpeAbdulhamidEniola](https://www.frontendmentor.io/profile/AdebimpeAbdulhamidEniola)
 - Whatsapp: +2348109419385
