@@ -27,6 +27,7 @@ Here is the screenshot of the desktop version
 ![](screenshots/desktop.png)
 
 Here is the screenshot of the mobile version
+![](screenshots/mobile.png)
 
 ### Links
 
