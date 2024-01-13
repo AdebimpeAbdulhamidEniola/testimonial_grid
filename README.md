@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL:  ![](https://adebimpeabdulhamideniola.github.io/testimonial_grid/)
 
 ## My process
 
@@ -56,5 +56,6 @@ main {
 ```
 
 ## Author
+Adebimpe Abdulhamid Eniola
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Whatsapp: +2348109419385
