@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL:  ![](https://adebimpeabdulhamideniola.github.io/testimonial_grid/)
+- Live Site URL:    ![](https://adebimpeabdulhamideniola.github.io/testimonial_grid/)
 
 ## My process
 
