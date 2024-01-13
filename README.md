@@ -20,15 +20,13 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
-Here is the screenshot of the desktop version
 ![](screenshots/desktop.png)
 
-Here is the screenshot of the mobile version
 ![](screenshots/mobile.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: 
 
 ## My process
 
